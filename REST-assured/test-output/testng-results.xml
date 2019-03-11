@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5751" started-at="2019-03-11T10:03:32Z" finished-at="2019-03-11T10:03:38Z">
+  <suite name="Default suite" duration-ms="11" started-at="2019-03-11T13:53:38Z" finished-at="2019-03-11T13:53:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5751" started-at="2019-03-11T10:03:32Z" finished-at="2019-03-11T10:03:38Z">
-      <class name="RestAssuredTestArticle.POSTTest">
-        <test-method status="PASS" signature="postRequestExampleTest()[pri:0, instance:RestAssuredTestArticle.POSTTest@3c0ecd4b]" name="postRequestExampleTest" duration-ms="5709" started-at="2019-03-11T10:03:32Z" description="POST" finished-at="2019-03-11T10:03:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postRequestExampleTest -->
-      </class> <!-- RestAssuredTestArticle.POSTTest -->
+    <test name="Default test" duration-ms="11" started-at="2019-03-11T13:53:38Z" finished-at="2019-03-11T13:53:38Z">
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
