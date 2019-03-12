@@ -1,4 +1,4 @@
-package RESTJUnits;
+package ShopTests;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.hamcrest.Matchers;
@@ -13,8 +13,8 @@ import static io.restassured.RestAssured.get;
 import org.junit.jupiter.api.Test;
 
 class PUTShopsTest {
-	final String ACTUAL = "Saint-Petersburg";
-	final String EXPECTED = "Saint-Petersburg";
+	final String ACTUAL = "Moscow";
+	final String EXPECTED = "Moscow";
 
 	@Test
 	void test() {
