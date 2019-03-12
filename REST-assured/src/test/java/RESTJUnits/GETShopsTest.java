@@ -22,9 +22,9 @@ class GETShopsTest {
 		RestAssured.given().baseUri("http://webservice.toscacloud.com")
 		.basePath("/rest/api/Shops_V2")
 				.contentType(ContentType.JSON)
-				.header("api_key", "5cc0c96e-7efe-41a2-871d-306e3d004910").
-				when().
-				get()
+				.header("api_key", "5cc0c96e-7efe-41a2-871d-306e3d004910")
+				.when()
+				.get()
 				.then();
 				Assert.assertThat(ACTUAL, is(EXPECTED));			
 	}
